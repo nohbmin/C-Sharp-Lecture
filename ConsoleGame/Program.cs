@@ -2,6 +2,19 @@
 
 namespace ConsoleGame
 {
+    class Monster
+    {
+        // 기본 접근 지정자
+        // 필드에서 private로 설정됩니다.
+        public int attack;
+        public string name;
+
+        public void Defense()
+        {
+            Console.WriteLine("방어");
+        }
+    }
+    
     internal class Program
     {
         // static void Main(string[ ] args)
@@ -9,30 +22,40 @@ namespace ConsoleGame
         // Main() 함수 안에서 실행해야 프로그램이 실행됩니다.
         static void Main(string[] args)
         {
+            // 값 타입
+            // 변수의 선언과 동시에 값을 할당할 수 있으며,
+            // 스택 메모리에 생성됩니다.
 
-            // Console.WriteLine(); <- 문자열을 출력하는 함수
-            // Console.WriteLine에서 문자열을 연결하려면 +로 연결하면 됩니다.
-            Console.WriteLine("안녕하세요." + " 김금수입니다.");
-            Console.WriteLine("유니티를 배우고 싶습니다.");
+            // 참조 타입
+            // new 키워드를 사용해서 객체를 초기화한 후 
+            // 힙에 할당된 메모리를 스택에서 참조하여 사용하는 타입입니다.
 
-            // Consile.Write() 함수는 개행을 하지않고, 출력하는 함수
+            int value = 10;
+            value = 20;
 
-            bool check = true;   // 1 byte
-            byte bit = 250;      // 1 byte
-            char alphabet = 'A'; // 1 byte 
-            short data = 32767;  // 2 byte 
-            ushort uData = 22;   // 2 byte 양수값만 표현할 수 있는 자료형
-            int integer = 300;   // 4 byte
-            uint uInteger = 200; // 4 byte 양수값만 표현할 수 있는 자료형
-            long signal = 15;    // 4 byte
+            string name = "kimgeumsoo";
+            int [] array = new int[5];
 
-            float sign = 16.5f;  // 4 byte
-            double count = 176.8;// 8 byte
-            decimal value = 3058;// 16 byte  
+            name = "kang";
 
-            Console.Write("안녕하세요.");
-            Console.Write(100);
+            Monster monster = new Monster();
+            monster.attack = 10;
+            monster.name = "Goblin";
+            monster.Defense();
 
+
+            array[0] = 10;
+            array[1] = 20;
+            array[2] = 30;
+            array[3] = 40; 
+            array[4] = 50;
+
+            Console.WriteLine(name);
+            Console.WriteLine(array[0]);
+            Console.WriteLine(array[1]);
+            Console.WriteLine(array[2]);
+            Console.WriteLine(array[3]);
+            Console.WriteLine(array[4]);
         }
     }
 }
