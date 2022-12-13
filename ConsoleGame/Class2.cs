@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleGame
 {
-    internal class SecondLecture
+    internal class Class2
     {
         class Monster
         {

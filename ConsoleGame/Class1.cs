@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleGame
 {
-    internal class FirstLecture
+    internal class Class1
     {
         #region C# 기초
         /*
