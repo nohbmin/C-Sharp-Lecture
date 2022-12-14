@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\LectureResources.exe
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\LectureResources.deps.json
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\LectureResources.runtimeconfig.json
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\LectureResources.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\LectureResources.dll
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\LectureResources.pdb
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.dll
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\refint\LectureResources.dll
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.pdb
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\LectureResources.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\ref\LectureResources.dll

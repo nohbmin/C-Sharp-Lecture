@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\Parameter_Modifier.exe
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\Parameter_Modifier.deps.json
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\Parameter_Modifier.runtimeconfig.json
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\Parameter_Modifier.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\Parameter_Modifier.dll
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\bin\Debug\net5.0\Parameter_Modifier.pdb
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.dll
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\refint\Parameter_Modifier.dll
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.pdb
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\Parameter_Modifier.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\C-Sharp-Lecture\LectureResources\obj\Debug\net5.0\ref\Parameter_Modifier.dll

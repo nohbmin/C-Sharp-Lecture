@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+namespace OtherGame
+{
+    class Data
+    {
+        public int value = 100;
+    }
+}
+
 namespace ConsoleGame
 {
     internal class Class3
