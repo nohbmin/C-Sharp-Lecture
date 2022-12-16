@@ -1,83 +1,102 @@
 ﻿using System;
+using System.Data.SqlTypes;
 using System.Text;
 
 namespace ConsoleGame
 {
-    class Unit
-    {
-        private int data; // <- data 어디에서나 접근이 가능하겠죠?   
-    
-        public int Data
-        {
-            set
-            {   // data <- (value)Data 프로퍼티에서 받은 값
-                if (value > 18)
-                {
-                    Console.WriteLine("Erorr Value");
-                    return;
-                }
-
-                data = value;
-            }
-            get
-            {
-                return data;
-            }
-        }
-
-        // 자동구현 프로퍼티
-        // 자동 구현 프로퍼티는 선언을 했을 때 컴파일러가 자동으로
-        // private 필드를 생성합니다.
-        public int Health
-        {
-            set;
-            get;
-        } = 200;
-
-        // 프로퍼티는 get만 사용해서 선언할 수 있습니다.
-        public int Attack
-        {
-            get;
-        }
-    }
-
     internal class Program
     {
+        class Parent
+        {
+            int age;
+            protected int money;   
+        
+            // 생성자
+            // 클래스가 인스턴스가 생성되는 시점에서 
+            // 자동으로 호출되는 특수한 멤버 메소드입니다.
+            public Parent(string name) 
+            {
+                Console.WriteLine(name + "Class 생성");
+            }
+
+            protected void Information()
+            {
+                Console.WriteLine("Parent Class 입니다.");
+            }
+
+        }
+
+        // Child 클래스가 Parent 클래스를 상속합니다.
+        class Child : Parent
+        {
+            // 기본 생성자
+            // 생성자가 없을 때 컴파일러가 자동으로 생성해주는 
+            // 생성자입니다.
+
+            // base()
+            // 상위 클래스의 생성자를 호출하는 메소드입니다.
+            // Parent("") == base("")
+            public Child() : base(" ")
+            { 
+                Console.WriteLine("Child Class 생성");
+            }
+
+            // int age
+            int money;
+
+            public void Function()
+            {
+                // base는 상위 클래스를 가리키는 포인터입니다.
+                // this는 자기 자신을 가리키는 포인터입니다.
+                base.money += 1;  // 상위 클래스 money 변수
+                this.money += 10; // 하위 클래스 money 변수
+
+                // base 키워드와 this 키워드를 사용하지 않고 
+                // 이름이 겹치는 멤버 변수를 호출했다면 this 포인터가 
+                // 우선권을 가지게 됩니다.
+                Console.WriteLine("money의 값 " + money);
+            }
+        }
+
+        // 메소드의 오버로딩
+        // 같은 이름의 함수를 매개 변수의 자료형과 매개변수의
+        // 수로 구분하여 여러 개를 선언할 수 있는 기능입니다.
+
+        class Vector
+        { 
+            public void Coordinate(int x, int y)
+            {
+                Console.WriteLine("int x의 값 : " + x + " int y의 값 : " + y);
+            }
+
+            public void Coordinate(float x, float y)
+            {
+                Console.WriteLine("float x의 값 : " + x + " float y의 값 : " + y);
+            }
+        
+            public void Coordinate(float x, float y, float z)
+            {
+                Console.WriteLine("x의 값 : " + x + "y의 값 : " + y + "z의 값 : "+ z);
+
+            }
+        }
+
+
+
         static void Main(string[] args)
         {
-            #region 프로퍼티
-            /*
-            Unit factory = new Unit();
+            // 상속
+            // 상위 클래스의 속성을 하위 클래스가
+            // 사용할 수 있도록 설정해주는 기능입니다.
+            Parent parent = new Parent("Parent");
 
-            factory.Data = 100;
+            Child child = new Child();
+            child.Function();
 
-            Console.WriteLine("Unit의 Health 값 : " + factory.Health);
-            Console.WriteLine("Unit의 data 값 : " + factory.Data);
-            */
-            #endregion
+            Vector vector = new Vector();
+            vector.Coordinate(10.5f, 20.5f);
 
-            // StringBuilder
-            StringBuilder score = new StringBuilder("100");
-
-            Console.WriteLine("score 변수의 값 : " + score);
-
-            // Replace
-            // 첫번째 매개변수에 있는 문자열을 두번째 매개변수에 있는
-            // 문자열로 변경하는 메소드입니다.
-            score.Replace("100", "200");
-
-            Console.WriteLine("score 변수의 값 : " + score);
-
-            // Append
-            score.Append("의 값을 가지고 있습니다.");
-
-            Console.WriteLine("score 변수의 값 : " + score);
-            
-            // 가변 -> 객체가 인스턴스된 후에 변할 수 있는 객체
-            // 불변 -> 객체가 인스턴스된 후에 변할 수 없는 객체
-
-            string name = "KIM";
-            name = "LEE";
+            vector.Coordinate(10, 20);
 
 
         }

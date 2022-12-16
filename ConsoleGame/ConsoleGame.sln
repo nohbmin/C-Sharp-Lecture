@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGame", "ConsoleGame.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parameter_Modifier", "..\LectureResources\Parameter_Modifier.csproj", "{BD071359-0FA1-44EF-9E7B-D66E6A3F6A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpcae", "..\NameSpcae\NameSpcae.csproj", "{2082CDC2-525F-4048-81E9-D62092225A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameSpcae", "..\NameSpcae\NameSpcae.csproj", "{2082CDC2-525F-4048-81E9-D62092225A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property", "..\Property\Property.csproj", "{3A346F2A-ADF1-471B-A068-8E0946AC2698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2082CDC2-525F-4048-81E9-D62092225A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2082CDC2-525F-4048-81E9-D62092225A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2082CDC2-525F-4048-81E9-D62092225A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A346F2A-ADF1-471B-A068-8E0946AC2698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A346F2A-ADF1-471B-A068-8E0946AC2698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A346F2A-ADF1-471B-A068-8E0946AC2698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A346F2A-ADF1-471B-A068-8E0946AC2698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
