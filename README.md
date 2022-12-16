@@ -1,2 +1,2 @@
 # C-Sharp-Lecture
-https://discord.gg/U9DaCFct
+https://discord.gg/U9MjdCcR
