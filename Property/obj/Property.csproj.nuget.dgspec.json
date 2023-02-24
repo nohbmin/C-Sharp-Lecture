@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\C-Sharp-Lecture\\Property\\Property.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\-\\nohbmin\\Property\\Property.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\C-Sharp-Lecture\\Property\\Property.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\-\\nohbmin\\Property\\Property.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\C-Sharp-Lecture\\Property\\Property.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\-\\nohbmin\\Property\\Property.csproj",
         "projectName": "Property",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\C-Sharp-Lecture\\Property\\Property.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\-\\nohbmin\\Property\\Property.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\C-Sharp-Lecture\\Property\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\-\\nohbmin\\Property\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,17 +45,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

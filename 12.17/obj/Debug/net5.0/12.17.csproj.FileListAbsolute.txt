@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\12.17.exe
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\12.17.deps.json
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\12.17.runtimeconfig.json
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\12.17.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\12.17.dll
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\ref\12.17.dll
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\bin\Debug\net5.0\12.17.pdb
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.dll
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\ref\12.17.dll
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.pdb
+C:\Users\Administrator\Desktop\-\nohbmin\12.17\obj\Debug\net5.0\12.17.genruntimeconfig.cache
